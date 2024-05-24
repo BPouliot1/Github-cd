@@ -4,6 +4,6 @@ import App from '../App'
 it('renders with the h1 content as Deploy to Render', () => {
   render(<App />);
 
-  const h1 = document.querySelector('h1');
+  const h1 = document.querySelector('Deploy to Render');
   expect(h1.textContent).toBe('Deploy to Render');
 })
